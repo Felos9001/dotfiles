@@ -19,7 +19,7 @@ cask "font-hack-nerd-font"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "warp"
 #code editor redefined and optimized for building and debugging 
-cask "vscode"
+cask "visual-studio-code"
 # Open-source keystroke visualizer
 cask "keycastr"
 # System monitor for the menu bar
