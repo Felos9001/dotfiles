@@ -10,7 +10,7 @@ git clone git@github.com:Felos9001/dotfiles.git ~/.dotfiles
 ```
 ### ...or use HTTPS and switch remotes later.
 ```
-git clone https://github.com/eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dotfiles
+git clone https://github.com/Felos9001/dotfiles.git ~/.dotfiles
 ```
 Create symlinks in the Home directory to the real files in the repo.
 ```
