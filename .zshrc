@@ -1,6 +1,5 @@
 export PATH=/Users/felos/flutter/bin:$PATH
 
-
 PROMT='HEllO WORLD
 ~ %'
 # >>> conda initialize >>>
