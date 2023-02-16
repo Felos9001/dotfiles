@@ -6,7 +6,7 @@ xcode-select --install
 Clone repo into new hidden directory.
 ### Use SSH (if set up)...
 ```
-git clone https://github.com/Felos9001/dotfiles.git ~/.dotfiles
+git clone git@github.com:Felos9001/dotfiles.git ~/.dotfiles
 ```
 ### ...or use HTTPS and switch remotes later.
 ```
