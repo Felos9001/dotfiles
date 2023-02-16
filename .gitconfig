@@ -1,0 +1,7 @@
+[user]
+	name = felos9001
+	email = 90056233+Felos9001@users.noreply.github.com
+[core]
+	excludesfile = ~/.gitignore_global
+[init]
+	defaultBranch = main
