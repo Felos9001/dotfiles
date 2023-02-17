@@ -32,6 +32,9 @@ brew bundle --file ~/.dotfiles/Brewfile
 
 # ...or move to the directory first.
 cd ~/.dotfiles && brew bundle
+
+#run bash on the MacOS Config
+sudo bash MacConfig.sh
 ```
 ## TODO List
 + Learn how to use defaults to record and restore System Preferences and other macOS configurations.
