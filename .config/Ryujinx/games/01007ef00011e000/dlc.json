@@ -1,0 +1,22 @@
+[
+  {
+    "path": "/Users/23378/Documents/Switch/The Legend of Zelda Breath of the Wild (NSP)(2 DLCs)/The Legend of Zelda Breath of the Wild [The Legend of Zelda Breath of the Wild DLC Pack 1][01007EF00011F001][US][v196608].nsp",
+    "dlc_nca_list": [
+      {
+        "path": "/b201291d3e099872debd1c1870572cc3.nca",
+        "title_id": 72197163296354305,
+        "is_enabled": true
+      }
+    ]
+  },
+  {
+    "path": "/Users/23378/Documents/Switch/The Legend of Zelda Breath of the Wild (NSP)(2 DLCs)/The Legend of Zelda Breath of the Wild [The Legend of Zelda Breath of the Wild DLC Pack 2][01007EF00011F002][US][v196608].nsp",
+    "dlc_nca_list": [
+      {
+        "path": "/a6ee60de4f804ac979f18fb68ced5857.nca",
+        "title_id": 72197163296354306,
+        "is_enabled": true
+      }
+    ]
+  }
+]
