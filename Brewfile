@@ -1,26 +1,58 @@
+#
+# installation of dotfiles and configuration through homebrew
+#
+# for Felos9001
+#
+# **CONTENTS**
+# 1. Taps
+# 2. Binaries
+# 3. Font
+# 4. cask apps
+# 5. mac apps
+
+#--------------------------------------------------------
+
+# **TAPS**
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "mongodb/brew"
-# WebDriver <-> Marionette proxy
-brew "geckodriver"
-# Remote repository management made easy
-brew "ghq"
-# MongoDB Shell to connect, configure, query, and work with your MongoDB database
-brew "mongosh"
-# Ambitious Vim-fork focused on extensibility and agility
-brew "neovim"
-# Platform built on V8 to build network applications
-brew "node@14"
-# Developer targeted fonts with a high number of glyphs
-cask "font-hack-nerd-font"
-# Terminal emulator as alternative to Apple's Terminal app
-cask "warp"
-#code editor redefined and optimized for building and debugging 
-cask "visual-studio-code"
-# Open-source keystroke visualizer
-cask "keycastr"
-# System monitor for the menu bar
-cask "stats"
+
+#--------------------------------------------------------
+# **BINARIES** 
+brew 'mas' # Mac App Store manager
+brew "geckodriver" #WebDriver <-> Marionette proxy
+brew "ghq" #Remote repository management made easy
+brew "mongosh" #MongoDB Shell to connect, configure, query, and work with your MongoDB database
+brew "neovim" #Ambitious Vim-fork focused on extensibility and agility
+brew "node@14" #Platform built on V8 to build network applications
+brew 'httpie' #User-friendly cURL replacement (command-line HTTP client)
+
+#--------------------------------------------------------
+
+# **FONTS** 
+cask "font-hack-nerd-font" #Developer targeted fonts with a high number of glyphs
+
+#--------------------------------------------------------
+
+# **CASK APPS**
+cask 'docker' #Pack, ship and run any application as a lightweight container
+cask 'kap' #Open-source screen recorder built with web technology
+cask "keycastr" # Open-source keystroke visualizer
+cask "obsidian" #Notes app that works on top of a local folder Markdown files
+cask 'opera-gx' #Alternate version of the Opera web browser
+cask "stats" # System monitor for the menu bar
+cask 'tableplus' #Native GUI tool for relational databases
+cask 'telegram' #Messaging app with a focus on speed and security
+cask "visual-studio-code" #code editor redefined and optimized for building and debugging 
+cask "warp" #Terminal emulator as alternative to Apple's Terminal app
+
+#--------------------------------------------------------
+
+# **MAC APPS**
+mas '', id:
+mas 'Step Two', id: 1448916662 #
+
+
