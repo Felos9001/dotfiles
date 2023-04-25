@@ -2,8 +2,8 @@
 
 #  Script.sh
 #  
-#
-#  Created by Felipe Solorzano on 2/16/23.
+#  MacOS custom config.
+#  Felos
 #  
 
 
