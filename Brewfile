@@ -1,8 +1,8 @@
 #
 # installation of dotfiles and configuration through homebrew
-#
-# for Felos9001
-#
+# each list is in alphabetical order
+# Felos9001
+# 
 # **CONTENTS**
 # 1. Taps
 # 2. Binaries
@@ -40,6 +40,7 @@ cask "font-hack-nerd-font" #Developer targeted fonts with a high number of glyph
 
 # **CASK APPS**
 cask 'docker' #Pack, ship and run any application as a lightweight container
+cask "hammerspoon" #Desktop automation application
 cask 'kap' #Open-source screen recorder built with web technology
 cask "keycastr" # Open-source keystroke visualizer
 cask "obsidian" #Notes app that works on top of a local folder Markdown files
@@ -49,6 +50,7 @@ cask 'tableplus' #Native GUI tool for relational databases
 cask 'telegram' #Messaging app with a focus on speed and security
 cask "visual-studio-code" #code editor redefined and optimized for building and debugging 
 cask "warp" #Terminal emulator as alternative to Apple's Terminal app
+
 
 #--------------------------------------------------------
 
