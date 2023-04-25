@@ -6,7 +6,8 @@
 #  Created by Felipe Solorzano on 2/16/23.
 #  
 
-defaults write com.apple.dock "orientation" -string "left"
+
+defaults write com.apple.dock "orientation" -string "bottom"
 defaults write com.apple.finder "ShowPathbar" -bool "true"
 defaults write com.apple.finder "FXPreferredViewStyle" -string "clmv"
 defaults write com.apple.finder "_FXSortFoldersFirst" -bool "true"
