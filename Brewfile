@@ -40,22 +40,24 @@ cask "font-hack-nerd-font" #Developer targeted fonts with a high number of glyph
 
 # **CASK APPS**
 cask 'docker' #Pack, ship and run any application as a lightweight container
-cask "hammerspoon" #Desktop automation application
+cask 'hammerspoon' #Desktop automation application
 cask 'kap' #Open-source screen recorder built with web technology
-cask "keycastr" # Open-source keystroke visualizer
+cask 'keycastr' # Open-source keystroke visualizer
+cask 'proxyman' #HTTP debugging proxy
 cask "obsidian" #Notes app that works on top of a local folder Markdown files
 cask 'opera-gx' #Alternate version of the Opera web browser
-cask "stats" # System monitor for the menu bar
+cask 'raycasy' #Control your tools with a few keystrokes
+cask 'stats' #System monitor for the menu bar
 cask 'tableplus' #Native GUI tool for relational databases
 cask 'telegram' #Messaging app with a focus on speed and security
-cask "visual-studio-code" #code editor redefined and optimized for building and debugging 
-cask "warp" #Terminal emulator as alternative to Apple's Terminal app
-
+cask 'tor-browser' #Web browser focusing on security
+cask 'visual-studio-code' #code editor redefined and optimized for building and debugging 
+cask 'warp' #Terminal emulator as alternative to Apple's Terminal app
 
 #--------------------------------------------------------
 
 # **MAC APPS**
-mas '', id:
-mas 'Step Two', id: 1448916662 #
+# mas '', id:
+mas 'Step Two', id: 1448916662 #two factor authentication
 
 
