@@ -1,0 +1,23 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.config/:
+      glob: true
+      path: config/*
+      relink: true
+    ~/.hammerspoon:
+      path: hammerspoon
+    ~/.gitconfig: gitconfig
+
+
+- create:
+    - ~/downloads
+
+- shell:
+  - [/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"]
+  - [brew bundle --file ~/.dotfiles/Brewfile]
+  - [git submodule update --init --recursive, Installing submodules]
