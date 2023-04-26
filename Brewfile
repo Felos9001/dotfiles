@@ -46,7 +46,7 @@ cask 'keycastr' # Open-source keystroke visualizer
 cask 'proxyman' #HTTP debugging proxy
 cask "obsidian" #Notes app that works on top of a local folder Markdown files
 cask 'opera-gx' #Alternate version of the Opera web browser
-cask 'raycasy' #Control your tools with a few keystrokes
+cask 'raycast' #Control your tools with a few keystrokes
 cask 'stats' #System monitor for the menu bar
 cask 'tableplus' #Native GUI tool for relational databases
 cask 'telegram' #Messaging app with a focus on speed and security
