@@ -59,5 +59,6 @@ cask 'warp' #Terminal emulator as alternative to Apple's Terminal app
 # **MAC APPS**
 # mas '', id:
 mas 'Step Two', id: 1448916662 #two factor authentication
+mas 'Trello', id: 1278508951 #Organize anything, together  
 
 
