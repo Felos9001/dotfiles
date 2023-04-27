@@ -39,6 +39,7 @@ cask "font-hack-nerd-font" #Developer targeted fonts with a high number of glyph
 #--------------------------------------------------------
 
 # **CASK APPS**
+cask 'burp-suite' #Web security testing toolkit
 cask 'docker' #Pack, ship and run any application as a lightweight container
 cask 'hammerspoon' #Desktop automation application
 cask 'kap' #Open-source screen recorder built with web technology
