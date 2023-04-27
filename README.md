@@ -16,9 +16,10 @@ git clone https://github.com/Felos9001/dotfiles.git ~/.dotfiles
 ```
 Create symlinks in the Home directory to the real files in the repo and Install Homebrew, followed by the software listed in the Brewfile.using dotbot.
 ```zsh
-# investigate install scripts and bootstrapping tools.
-# check out the install.conf.yaml file to see what you are installing
+#install pyYAML to be able to install the .yaml file
+pip install pyyaml
 
+# check out the install.conf.yaml file to see what you are installing
 ./install
 ```
 The scripts run in install.conf.yaml
@@ -31,6 +32,8 @@ brew bundle --file ~/.dotfiles/Brewfile
 
 #run bash on the MacOS Config
 sudo bash MacConfig.sh
+
+git submodule update --init --recursive, Installing submodules
 ```
 ## TODO List
 + Learn how to use defaults to record and restore System Preferences and other macOS configurations.
