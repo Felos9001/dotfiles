@@ -29,9 +29,6 @@ The scripts run in install.conf.yaml
 # Then pass in the Brewfile location...
 brew bundle --file ~/.dotfiles/Brewfile
 
-# ...or move to the directory first.
-cd ~/.dotfiles && brew bundle
-
 #run bash on the MacOS Config
 sudo bash MacConfig.sh
 ```
