@@ -14,18 +14,15 @@ git clone git@github.com:Felos9001/dotfiles.git ~/.dotfiles
 ```zsh
 git clone https://github.com/Felos9001/dotfiles.git ~/.dotfiles
 ```
-Create symlinks in the Home directory to the real files in the repo.
+Create symlinks in the Home directory to the real files in the repo and Install Homebrew, followed by the software listed in the Brewfile.using dotbot.
 ```zsh
-# There are better and less manual ways to do this;
 # investigate install scripts and bootstrapping tools.
+# check out the install.conf.yaml file to see what you are installing
 
-ln -s ~/.dotfiles/.zshrc ~/.zshrc
-ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
+./install
 ```
-Install Homebrew, followed by the software listed in the Brewfile.
+The scripts run in install.conf.yaml
 ```zsh
-# These could also be in an install script.
-
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
