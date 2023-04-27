@@ -7,17 +7,14 @@
 - link:
     ~/.config/:
       glob: true
-      path: config/*
+      path: .config/*
       relink: true
     ~/.hammerspoon:
       path: hammerspoon
-    ~/.gitconfig: gitconfig
-
-
-- create:
-    - ~/downloads
+    ~/.gitconfig: .gitconfig
 
 - shell:
   - [/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"]
-  - [brew bundle --file ~/.dotfiles/Brewfile]
+  - [brew bundle --file ~/dotfiles/Brewfile]
+  - [sudo bash MacConfig.sh]
   - [git submodule update --init --recursive, Installing submodules]
