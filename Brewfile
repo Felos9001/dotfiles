@@ -30,6 +30,8 @@ brew "mongosh" #MongoDB Shell to connect, configure, query, and work with your M
 brew "neovim" #Ambitious Vim-fork focused on extensibility and agility
 brew "node@14" #Platform built on V8 to build network applications
 brew 'httpie' #User-friendly cURL replacement (command-line HTTP client)
+brew 'dalfox' #powerful open-source XSS scanner and utility focused on automation.
+brew 'amass' #In-depth Attack Surface Mapping and Asset Discovery
 
 #--------------------------------------------------------
 
