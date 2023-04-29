@@ -3,5 +3,6 @@
 	email = 90056233+Felos9001@users.noreply.github.com
 [core]
 	excludesfile = ~/.gitignore_global
+	editor = code -n --wait
 [init]
 	defaultBranch = main
