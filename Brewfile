@@ -23,15 +23,15 @@ tap "mongodb/brew"
 
 #--------------------------------------------------------
 # **BINARIES** 
-brew 'mas' # Mac App Store manager
+brew 'amass' #In-depth Attack Surface Mapping and Asset Discovery
+brew 'dalfox' #powerful open-source XSS scanner and utility focused on automation.
+brew 'duti' #Select default apps for documents and URL schemes on macOS
 brew "geckodriver" #WebDriver <-> Marionette proxy
 brew "ghq" #Remote repository management made easy
-brew "mongosh" #MongoDB Shell to connect, configure, query, and work with your MongoDB database
+brew 'httpie' #User-friendly cURL replacement (command-line HTTP client)
+brew 'mas' # Mac App Store manager
 brew "neovim" #Ambitious Vim-fork focused on extensibility and agility
 brew "node@14" #Platform built on V8 to build network applications
-brew 'httpie' #User-friendly cURL replacement (command-line HTTP client)
-brew 'dalfox' #powerful open-source XSS scanner and utility focused on automation.
-brew 'amass' #In-depth Attack Surface Mapping and Asset Discovery
 
 #--------------------------------------------------------
 
