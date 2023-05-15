@@ -44,4 +44,3 @@ git submodule update --init --recursive, Installing submodules
 + Create a bootable USB installer for macOS.
 + Integrate other cloud services into your Dotfiles process (Dropbox, Google Drive, etc.).
 + Find inspiration and examples in other Dotfiles repositories at dotfiles.github.io.
-+ And last, but hopefully not least, take my course, Dotfiles from Start to Finish-ish!
