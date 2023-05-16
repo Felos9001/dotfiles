@@ -24,12 +24,12 @@ Safari=$(dock_item /Applications/Safari.app)
 warp=$(dock_item /Applications/warp.app)
 Xcode=$(dock_item /Applications/Xcode.app)
 AppStore=$(dock_item /System/Applications/App\ Store.app)
-PhotoBooth=$(dock_item /System/Applications/Photo\ Booth.app)
+Mail=$(dock_item /System/Applications/Mail.app)
 Messages=$(dock_item /System/Applications/Messages.app)
 FaceTime=$(dock_item /System/Applications/FaceTime.app)
 System=$(dock_item /System/Applications/System\ Settings.app)
  
-sudo su $LOGGED_USER -c "defaults write com.apple.dock persistent-apps -array '$Launchpad' '$Photos' '$Calendar' '$Obsidian' '$VScode' '$Safari' '$warp' '$Xcode' '$AppStore' '$PhotoBooth'  '$Messages' '$FaceTime' '$System'"
+sudo su $LOGGED_USER -c "defaults write com.apple.dock persistent-apps -array '$Launchpad' '$Photos' '$Calendar' '$Obsidian' '$VScode' '$Safari' '$warp' '$Mail' '$Xcode' '$AppStore' '$Messages' '$FaceTime' '$System'"
 
 
 defaults write com.apple.dock "orientation" -string "bottom"
