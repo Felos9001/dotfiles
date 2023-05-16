@@ -19,17 +19,17 @@ Launchpad=$(dock_item /System/Applications/Launchpad.app)
 Photos=$(dock_item /System/Applications/Photos.app)
 Calendar=$(dock_item /System/Applications/Calendar.app)
 Obsidian=$(dock_item /Applications/Obsidian.app)
-VScode=$(dock_item /Applications/Visual Studio Code.app)
+VScode=$(dock_item /Applications/Visual\ Studio\ Code.app)
 Safari=$(dock_item /Applications/Safari.app)
 warp=$(dock_item /Applications/warp.app)
 Xcode=$(dock_item /Applications/Xcode.app)
-AppStore=$(dock_item /System/Applications/App Store.app)
+AppStore=$(dock_item /System/Applications/App\ Store.app)
 PhotoBooth=$(dock_item /System/Applications/Photo\ Booth.app)
 Messages=$(dock_item /System/Applications/Messages.app)
 FaceTime=$(dock_item /System/Applications/FaceTime.app)
-SystemPreferences=$(dock_item /System/Applications/System\ Preferences.app)
+System=$(dock_item /System/Applications/System Settings.app)
  
-sudo su $LOGGED_USER -c "defaults write com.apple.dock persistent-apps -array '$Launchpad' '$Photos' '$Calendar' '$Obsidian' '$VScode' '$warp' '$Xcode' '$AppStore' '$PhotoBooth' '$Safari' '$Messages' '$Facetime' '$SystemPreferences'"
+sudo su $LOGGED_USER -c "defaults write com.apple.dock persistent-apps -array '$Launchpad' '$Photos' '$Calendar' '$Obsidian' '$VScode' '$warp' '$Xcode' '$AppStore' '$PhotoBooth' '$Safari' '$Messages' '$FaceTime' '$System'"
 
 
 defaults write com.apple.dock "orientation" -string "bottom"
