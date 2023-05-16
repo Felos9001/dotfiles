@@ -40,6 +40,7 @@ defaults write com.apple.finder "FXDefaultSearchScope" -string "SCcf"
 defaults write com.apple.universalaccess "showWindowTitlebarIcons" -bool "true"
 defaults write com.apple.finder "ShowRemovableMediaOnDesktop" -bool "true" && killall Finder
 defaults write com.apple.finder "ShowMountedServersOnDesktop" -bool "true" && killall Finder
+defaults write com.apple.dock largesize -int 70
 
 defaults write com.apple.menuextra.clock Show24Hour 0
 
