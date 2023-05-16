@@ -27,7 +27,7 @@ AppStore=$(dock_item /System/Applications/App\ Store.app)
 PhotoBooth=$(dock_item /System/Applications/Photo\ Booth.app)
 Messages=$(dock_item /System/Applications/Messages.app)
 FaceTime=$(dock_item /System/Applications/FaceTime.app)
-System=$(dock_item /System/Applications/System Settings.app)
+System=$(dock_item /System/Applications/System\ Settings.app)
  
 sudo su $LOGGED_USER -c "defaults write com.apple.dock persistent-apps -array '$Launchpad' '$Photos' '$Calendar' '$Obsidian' '$VScode' '$Safari' '$warp' '$Xcode' '$AppStore' '$PhotoBooth'  '$Messages' '$FaceTime' '$System'"
 
