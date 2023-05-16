@@ -40,7 +40,6 @@ defaults write com.apple.finder "FXDefaultSearchScope" -string "SCcf"
 defaults write com.apple.universalaccess "showWindowTitlebarIcons" -bool "true"
 defaults write com.apple.finder "ShowRemovableMediaOnDesktop" -bool "true" && killall Finder
 defaults write com.apple.finder "ShowMountedServersOnDesktop" -bool "true" && killall Finder
-sqlite3 ~/Library/Application\ Support/Dock/desktoppicture.db "update data set value = '/Users/felos/Pictures/Cathedral.jpeg'"
 
 defaults write com.apple.menuextra.clock Show24Hour 0
 
